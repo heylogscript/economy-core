@@ -1,0 +1,72 @@
+{
+	"name": "EconomyTest",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"EconomyModules": {
+				"$className": "Folder",
+				"Config": {
+					"$className": "ModuleScript",
+					"Source": {
+						"$path": "ReplicatedStorage/EconomyModules/Config.lua"
+					}
+				},
+				"Generators": {
+					"$className": "ModuleScript",
+					"Source": {
+						"$path": "ReplicatedStorage/EconomyModules/Generators.lua"
+					}
+				},
+				"Upgrades": {
+					"$className": "ModuleScript",
+					"Source": {
+						"$path": "ReplicatedStorage/EconomyModules/Upgrades.lua"
+					}
+				},
+				"SaveManager": {
+					"$className": "ModuleScript",
+					"Source": {
+						"$path": "ReplicatedStorage/EconomyModules/SaveManager.lua"
+					}
+				},
+				"PrestigeManager": {
+					"$className": "ModuleScript",
+					"Source": {
+						"$path": "ReplicatedStorage/EconomyModules/PrestigeManager.lua"
+					}
+				}
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"RunEconomy": {
+				"$className": "Script",
+				"Source": {
+					"$path": "ServerScriptService/RunEconomy.server.lua"
+				}
+			},
+			"TestOfflineIncome": {
+				"$className": "Script",
+				"Source": {
+					"$path": "ServerScriptService/TestOfflineIncome.server.lua"
+				}
+			}
+		},
+		"StarterPlayerScripts": {
+			"$className": "StarterPlayerScripts",
+			"EconomyClient": {
+				"$className": "ModuleScript",
+				"Source": {
+					"$path": "StarterPlayerScripts/EconomyClient.lua"
+				}
+			},
+			"EconomyGUI": {
+				"$className": "LocalScript",
+				"Source": {
+					"$path": "StarterPlayerScripts/EconomyGUI.client.lua"
+				}
+			}
+		}
+	}
+}
